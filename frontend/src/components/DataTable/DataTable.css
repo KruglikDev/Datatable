@@ -1,0 +1,19 @@
+.head {
+    font-size: 20px;
+    font-weight: bold;
+    background: lightblue;
+}
+
+table {
+    width: 100vw;
+}
+
+th {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid grey;
+}

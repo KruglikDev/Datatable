@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+li.disabled {
+    display: none;
+}
+
+li.active {
+    background: lightblue;
+}
+
+li:not(:last-child) {
+    margin-right: 5px;
+}
